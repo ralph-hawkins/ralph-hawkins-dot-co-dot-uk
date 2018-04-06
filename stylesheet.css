@@ -1,4 +1,56 @@
+@import url("https://use.typekit.net/uwh2jiy.css");
+body {
+  font-family: TTCommons-Medium; }
+
+main {
+  width: 80vw;
+  margin: 6vw auto; }
+
+h1, h2, p, a {
+  font-size: 3vh;
+  color: #0B0C0C;
+  font-weight: 400; }
+
 h1 {
-  font-family: helvetica;
-  margin: 0px;
-}
+  margin-right: 3vh;
+  display: inline-block; }
+
+p {
+  margin: 3vh 0; }
+
+@media (min-width: 600px) {
+  main {
+    width: 55vh; }
+
+  h1, h2, p, a {
+    font-size: 4vh; } }
+ul {
+  list-style: none;
+  padding: 0px; }
+  ul li {
+    margin-bottom: 0.75vh; }
+
+a {
+  color: #0B0C0C;
+  text-decoration: underline rgba(0, 0, 0, 0.5); }
+  a:visited {
+    color: #0B0C0C; }
+  a:hover {
+    color: rgba(0, 0, 0, 0.66);
+    text-decoration: underline rgba(0, 0, 0, 0.33); }
+
+.waving-hand {
+  display: inline-block;
+  animation: wave 0.3s ease-in-out 0.75s 4;
+  transform-origin: centre bottom;
+  font-size: 5vh;
+  width: 40px; }
+  .waving-hand p {
+    font-size: 4.5vh;
+    text-aligh: centre; }
+
+@keyframes wave {
+  50% {
+    transform: rotate(10deg); } }
+
+/*# sourceMappingURL=stylesheet.css.map */
